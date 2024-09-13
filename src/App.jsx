@@ -109,7 +109,7 @@ function App() {
           <p className={`text-${theme}-white`}>Purple</p>
         </div>
         <div className={`bg-${theme}-hazardous`}>
-          <p className={`text-${theme}-white`}>Brown</p>
+          <p className={`text-${theme}-white`}>Maroon</p>
         </div>
       </div>
       <div id="table-container" className={`bg-${theme}-header mt-8`}>
