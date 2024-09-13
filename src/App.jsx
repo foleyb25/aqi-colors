@@ -76,18 +76,18 @@ function App() {
                               'bg-[#00FF00] border border-black'
                               :
                               'bg-[#FF0000] border border-black'}>AA Large Text: {detail['AA Large Text']}</div>
-                    <div  className={detail['AA Small Text'] === 'PASS' ? 
-                              'bg-[#00FF00] border border-black'
-                              :
-                              'bg-[#FF0000] border border-black'}>AA Large Text: {detail['AA Small Text']}</div>
                     <div  className={detail['AAA Large Text'] === 'PASS' ? 
                               'bg-[#00FF00] border border-black'
                               :
-                              'bg-[#FF0000] border border-black'}>AA Large Text: {detail['AAA Large Text']}</div>
+                              'bg-[#FF0000] border border-black'}>AAA Large Text: {detail['AAA Large Text']}</div>
+                    <div  className={detail['AA Small Text'] === 'PASS' ? 
+                              'bg-[#00FF00] border border-black'
+                              :
+                              'bg-[#FF0000] border border-black'}>AA Small Text: {detail['AA Small Text']}</div>
                     <div  className={detail['AAA Small Text'] === 'PASS' ? 
                               'bg-[#00FF00] border border-black'
                               :
-                              'bg-[#FF0000] border border-black'}>AA Large Text: {detail['AAA Small Text']}</div>
+                              'bg-[#FF0000] border border-black'}>AAA Small Text: {detail['AAA Small Text']}</div>
                   </div>
               )
             })}
@@ -173,7 +173,7 @@ function App() {
               </td>
             </tr>
             <tr className="text-center border-b border-black">
-              <td className={`px-1 bg-${theme}-unhealthy color-white`}>
+              <td className={`px-1 bg-${theme}-unhealthy text-white`}>
                 Unhealthy <br />
                 (151-200)
               </td>
