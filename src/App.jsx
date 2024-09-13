@@ -66,7 +66,6 @@ function App() {
             {contrastResponse.map((detail, index) => {
               return (
                   <div key={index} className='flex flex-col justify-center w-full mx-1 border border-black space-y-1'>
-                    <div>{detail.ratio}</div>
                     <div className='flex flex-row items-center justify-center space-x-4'>
                       <div style={{background: detail.background, color: detail.foreground}} className={`w-1/3 h-8 border border-black` }>bg</div>
                       <div style={{background: detail.foreground, color: detail.foreground === "#000000" ? 'white' : 'black'}} className={`w-1/3 h-8 border border-black`}>text</div>

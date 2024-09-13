@@ -17,6 +17,7 @@ export const getContrastDetails = (hexDetails) => {
       "AA Small Text": ratio < 1/4.5 ? 'PASS' : 'FAIL',
       "AAA Large Text": ratio < 1/4.5 ? 'PASS' : 'FAIL',
       "AAA Small Text": ratio < 1/7 ? 'PASS' : 'FAIL',
+      score: ratio * 21
     } )
   }
   return resultList;
