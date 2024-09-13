@@ -173,7 +173,7 @@ function App() {
               </td>
             </tr>
             <tr className="text-center border-b border-black">
-              <td className={`px-1 bg-${theme}-unhealthy color-black`}>
+              <td className={`px-1 bg-${theme}-unhealthy color-white`}>
                 Unhealthy <br />
                 (151-200)
               </td>
