@@ -18,7 +18,7 @@ export default {
             moderate: "#FFFF00",
             sensitive: "#FF7E00",
             unhealthy: "#FF0000",
-            veryUnhealthy: "#BF3F97",
+            veryUnhealthy: "#8F3F97",
             hazardous: "#7E0023",
             header: "#004A97",
             black: "#000000",
