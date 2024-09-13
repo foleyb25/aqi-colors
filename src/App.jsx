@@ -62,10 +62,10 @@ function App() {
           </div>
         </div>
 
-        <div className='flex flex-row my-4'>
+        <div className='flex flex-row my-4 w-full'>
             {contrastResponse.map((detail, index) => {
               return (
-                  <div key={index} className='flex flex-col justify-center w-full'>
+                  <div key={index} className='flex flex-col justify-center w-full mx-1 border border-black space-y-1'>
                     <div>{detail.ratio}</div>
                     <div className='flex flex-row items-center justify-center space-x-4'>
                       <div style={{background: detail.background, color: detail.foreground}} className={`w-1/3 h-8 border border-black` }>bg</div>
